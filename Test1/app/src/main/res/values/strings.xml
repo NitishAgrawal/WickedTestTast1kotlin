@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Test1</string>
+
+
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="dob">Date of birth</string>
+    <string name="gender">Gender</string>
+    <string name="done">Done</string>
+    <string name="submit">Submit</string>
+    <string name="title_activity_user_detail">UserDetailActivity</string>
+</resources>

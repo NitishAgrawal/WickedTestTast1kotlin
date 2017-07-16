@@ -1,0 +1,56 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">32dp</dimen>
+    <dimen name="activity_vertical_margin">32dp</dimen>
+
+    <!--Login screen-->
+    <dimen name="login_label_size">50sp</dimen>
+
+    <!--Style-->
+    <!--et_style-->
+    <dimen name="et_padding_top">5dp</dimen>
+    <dimen name="et_padding_bottom">5dp</dimen>
+    <dimen name="et_padding_left">5dp</dimen>
+    <dimen name="et_padding_right">5dp</dimen>
+    <dimen name="et_txt_size">18sp</dimen>
+    <dimen name="et_margin_top">10dp</dimen>
+
+    <!--et_dialgo_style-->
+    <dimen name="et_dialog_padding_top">5dp</dimen>
+    <dimen name="et_dialog_padding_bottom">5dp</dimen>
+    <dimen name="et_dialog_padding_left">5dp</dimen>
+    <dimen name="et_dialog_padding_right">5dp</dimen>
+    <dimen name="et_dialog_txt_size">18sp</dimen>
+    <dimen name="et_dialog_margin_top">10dp</dimen>
+
+    <!--btn_style-->
+    <dimen name="btn_padding_top">5dp</dimen>
+    <dimen name="btn_padding_bottom">5dp</dimen>
+    <dimen name="btn_padding_left">5dp</dimen>
+    <dimen name="btn_padding_right">5dp</dimen>
+    <dimen name="btn_txt_size">18sp</dimen>
+    <dimen name="btn_margin_top">10dp</dimen>
+
+    <!--Navigation_item-->
+    <dimen name="nav_padding_top">15dp</dimen>
+    <dimen name="nav_padding_bottom">15dp</dimen>
+    <dimen name="nav_padding_left">15dp</dimen>
+    <dimen name="nav_padding_right">15dp</dimen>
+    <dimen name="nav_item_txt_size">18sp</dimen>
+    <dimen name="nav_margin_top">10dp</dimen>
+
+    <!--Common Sizes-->
+    <dimen name="minor_padding">10dp</dimen>
+    <dimen name="major_padding">15dp</dimen>
+
+    <!--Image_size-->
+    <dimen name="artifact_detail_dummy_img_hori">100dp</dimen>
+    <dimen name="artifact_detail_dummy_img_ver">80dp</dimen>
+
+
+    <dimen name="circle_size">20dp</dimen>
+    <dimen name="circle_size_inner">18dp</dimen>
+    <dimen name="dialog_image_height">300dp</dimen>
+
+
+</resources>

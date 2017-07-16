@@ -1,0 +1,56 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">48dp</dimen>
+    <dimen name="activity_vertical_margin">48dp</dimen>
+
+    <!--Login screen-->
+    <dimen name="login_label_size">70sp</dimen>
+
+
+    <!--Style-->
+    <!--et_style-->
+    <dimen name="et_padding_top">10dp</dimen>
+    <dimen name="et_padding_bottom">10dp</dimen>
+    <dimen name="et_padding_left">10dp</dimen>
+    <dimen name="et_padding_right">10dp</dimen>
+    <dimen name="et_txt_size">22sp</dimen>
+    <dimen name="et_margin_top">20dp</dimen>
+
+    <!--et_dialgo_style-->
+    <dimen name="et_dialog_padding_top">10dp</dimen>
+    <dimen name="et_dialog_padding_bottom">10dp</dimen>
+    <dimen name="et_dialog_padding_left">10dp</dimen>
+    <dimen name="et_dialog_padding_right">10dp</dimen>
+    <dimen name="et_dialog_txt_size">22sp</dimen>
+    <dimen name="et_dialog_margin_top">20dp</dimen>
+
+    <!--btn_style-->
+    <dimen name="btn_padding_top">10sp</dimen>
+    <dimen name="btn_padding_bottom">10sp</dimen>
+    <dimen name="btn_padding_left">10sp</dimen>
+    <dimen name="btn_padding_right">10sp</dimen>
+    <dimen name="btn_txt_size">22sp</dimen>
+    <dimen name="btn_margin_top">20dp</dimen>
+
+
+    <!--Navigation_item-->
+    <dimen name="nav_padding_top">25sp</dimen>
+    <dimen name="nav_padding_bottom">25sp</dimen>
+    <dimen name="nav_padding_left">25sp</dimen>
+    <dimen name="nav_padding_right">25sp</dimen>
+    <dimen name="nav_item_txt_size">20sp</dimen>
+    <dimen name="nav_margin_top">20dp</dimen>
+
+    <!--Common Sizes-->
+    <dimen name="minor_padding">20dp</dimen>
+    <dimen name="major_padding">25dp</dimen>
+
+    <!--image_size-->
+    <dimen name="artifact_detail_dummy_img_hori">120dp</dimen>
+    <dimen name="artifact_detail_dummy_img_ver">90dp</dimen>
+
+
+    <dimen name="circle_size">22dp</dimen>
+    <dimen name="circle_size_inner">20dp</dimen>
+    <dimen name="dialog_image_height">300dp</dimen>
+</resources>

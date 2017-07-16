@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <com.kotlin.nitish.test1.custom.RoundedImageView
+            android:id="@+id/ivImage"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/ic_camera" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            style="@style/cb_container_style"
+            android:orientation="horizontal">
+
+            <LinearLayout style="@style/cb_text_ll_style"
+                android:layout_marginRight="@dimen/minor_padding">
+
+                <TextView
+                    style="@style/cb_text_style"
+                    android:text="@string/name" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/cb_text_ll_style"
+                android:layout_marginLeft="@dimen/minor_padding"
+                >
+
+                <TextView
+                    android:id="@+id/tvUserName"
+                    style="@style/cb_text_style.value"
+                    android:text="@string/app_name" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <View style="@style/divider"/>
+
+
+
+        <LinearLayout
+            style="@style/cb_container_style"
+            android:orientation="horizontal">
+
+            <LinearLayout style="@style/cb_text_ll_style"
+                android:layout_marginRight="@dimen/minor_padding">
+
+                <TextView
+                    style="@style/cb_text_style"
+                    android:text="@string/email" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/cb_text_ll_style"
+                android:layout_marginLeft="@dimen/minor_padding"
+                >
+
+                <TextView
+                    android:id="@+id/tvEmail"
+                    style="@style/cb_text_style.value"
+                    android:text="@string/app_name" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <View style="@style/divider"/>
+
+        <LinearLayout
+            style="@style/cb_container_style"
+            android:orientation="horizontal">
+
+            <LinearLayout style="@style/cb_text_ll_style"
+                android:layout_marginRight="@dimen/minor_padding">
+
+                <TextView
+                    style="@style/cb_text_style"
+                    android:text="@string/phone_number" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/cb_text_ll_style"
+                android:layout_marginLeft="@dimen/minor_padding"
+                >
+
+                <TextView
+                    android:id="@+id/tvPhoneNumber"
+                    style="@style/cb_text_style.value"
+                    android:text="@string/app_name" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <View style="@style/divider"/>
+
+
+        <LinearLayout
+            style="@style/cb_container_style"
+            android:orientation="horizontal">
+
+            <LinearLayout style="@style/cb_text_ll_style"
+                android:layout_marginRight="@dimen/minor_padding">
+
+                <TextView
+                    style="@style/cb_text_style"
+                    android:text="@string/dob" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/cb_text_ll_style"
+                android:layout_marginLeft="@dimen/minor_padding"
+                >
+
+                <TextView
+                    android:id="@+id/tvDOB"
+                    style="@style/cb_text_style.value"
+                    android:text="@string/app_name" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <View style="@style/divider"/>
+
+
+        <LinearLayout
+            style="@style/cb_container_style"
+            android:orientation="horizontal">
+
+            <LinearLayout style="@style/cb_text_ll_style"
+                android:layout_marginRight="@dimen/minor_padding">
+
+                <TextView
+                    style="@style/cb_text_style"
+                    android:text="@string/gender" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/cb_text_ll_style"
+                android:layout_marginLeft="@dimen/minor_padding"
+                >
+
+                <TextView
+                    android:id="@+id/tvGender"
+                    style="@style/cb_text_style.value"
+                    android:text="@string/app_name" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <View style="@style/divider"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

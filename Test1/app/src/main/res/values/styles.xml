@@ -1,0 +1,81 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="et_style" parent="Base.Widget.AppCompat.EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:paddingLeft">@dimen/et_padding_left</item>
+        <item name="android:paddingRight">@dimen/et_padding_right</item>
+        <item name="android:paddingBottom">@dimen/et_padding_bottom</item>
+        <item name="android:paddingTop">@dimen/et_padding_top</item>
+        <item name="android:textSize">@dimen/et_txt_size</item>
+        <item name="android:layout_marginTop">@dimen/et_margin_top</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="btn_style" parent="Base.Widget.AppCompat.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/btn_rounded_corner</item>
+        <item name="android:paddingLeft">@dimen/btn_padding_left</item>
+        <item name="android:paddingRight">@dimen/btn_padding_right</item>
+        <item name="android:paddingBottom">@dimen/btn_padding_bottom</item>
+        <item name="android:paddingTop">@dimen/btn_padding_top</item>
+        <item name="android:textSize">@dimen/btn_txt_size</item>
+        <item name="android:layout_marginTop">@dimen/btn_margin_top</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="cb_container_style" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">@dimen/major_padding</item>
+        <item name="android:paddingTop">@dimen/major_padding</item>
+        <item name="android:paddingLeft">@dimen/major_padding</item>
+        <item name="android:paddingRight">@dimen/major_padding</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="cb_text_ll_style" parent="AppTheme">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="cb_text_style" parent="AppTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/app_text_color</item>
+    </style>
+
+    <style name="cb_text_style.value">
+        <item name="android:textColor">@android:color/darker_gray</item>
+    </style>
+
+
+    <!--Divider-->
+    <style name="divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/gray_light</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
